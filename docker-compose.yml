@@ -1,0 +1,20 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Pwd12345!
+    restart: always
+    ports:
+      - "11433:1433"
+    container_name: ulid-tests-sqlserver
+  pgsql:
+    image: postgres
+    environment:
+      - POSTGRES_USER=sa
+      - POSTGRES_PASSWORD=Pwd12345!
+      - POSTGRES_DB=UlidTests
+    restart: always
+    ports:
+      - "15432:5432"
+    container_name: ulid-tests-pgsql

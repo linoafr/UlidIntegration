@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFrameworkCore", "EntityFrameworkCore", "{CD57FD6A-F554-4B08-8EA7-1B561D222D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linoa.UlidIntegration.EntityFrameworkCore.Relational", "EntityFrameworkCore\src\Linoa.UlidIntegration.EntityFrameworkCore.Relational\Linoa.UlidIntegration.EntityFrameworkCore.Relational.csproj", "{5EB569D2-9D75-4CC9-9F0D-9B4917A828BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{035E2D32-E49B-4301-AB2F-0B9A1C4272DD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5098706D-7A34-40DF-A93F-E17B320E1037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linoa.UlidIntegration.EntityFrameworkCore.Relational.Tests", "EntityFrameworkCore\tests\Linoa.UlidIntegration.EntityFrameworkCore.Relational.Tests\Linoa.UlidIntegration.EntityFrameworkCore.Relational.Tests.csproj", "{AEC1F4E7-B88D-421F-B960-8CF1757C5278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB569D2-9D75-4CC9-9F0D-9B4917A828BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB569D2-9D75-4CC9-9F0D-9B4917A828BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB569D2-9D75-4CC9-9F0D-9B4917A828BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB569D2-9D75-4CC9-9F0D-9B4917A828BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC1F4E7-B88D-421F-B960-8CF1757C5278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC1F4E7-B88D-421F-B960-8CF1757C5278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC1F4E7-B88D-421F-B960-8CF1757C5278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC1F4E7-B88D-421F-B960-8CF1757C5278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EB569D2-9D75-4CC9-9F0D-9B4917A828BC} = {CD57FD6A-F554-4B08-8EA7-1B561D222D10}
+		{5098706D-7A34-40DF-A93F-E17B320E1037} = {CD57FD6A-F554-4B08-8EA7-1B561D222D10}
+		{AEC1F4E7-B88D-421F-B960-8CF1757C5278} = {5098706D-7A34-40DF-A93F-E17B320E1037}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84122700-17FE-457F-A8DB-3B1BD4FCB610}
+	EndGlobalSection
+EndGlobal
