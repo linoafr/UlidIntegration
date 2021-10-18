@@ -39,6 +39,9 @@ internal class UlidToStringTypeMapping : RelationalTypeMapping
 
     protected override RelationalTypeMapping Clone(RelationalTypeMappingParameters parameters)
         => new UlidToStringTypeMapping();
+
+    protected override string SqlLiteralFormatString
+        => "'{0}'";
 }
 
 internal class UlidToStringTypeMappingSourcePlugin : IRelationalTypeMappingSourcePlugin
